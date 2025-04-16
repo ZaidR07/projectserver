@@ -19,7 +19,7 @@ const PORT = 4000;
 
 
 app.use(cors({
-  origin: ['https://fitness365.vercel.app', 'http://localhost:3000'],  // Allow specific origins
+  origin: ['https://fitness365.vercel.app', 'http://localhost:3000' , 'https://evolve365.vercel.app'],  // Allow specific origins
   credentials: true
 }));
 
